@@ -12,7 +12,14 @@
   <p>This application allows a user to know the day of the week they were born based on their gender using the Akan Ghanian naming culture.</p>
   <p>Enter your birthday below</p>
   <form>
-    
+    <label for="mm">Month:</label>
+    <input type="number" id="mm" min="1" max="12" required>
+    <label for="dd">Date:</label>
+    <input type="number" id="dd" min="1" max="31" required>
+    <label for="yy">Year:</label>
+    <input type="number" id="yy" required>
+
+    <button type="submit">Submit</button>
   </form>
   
 </body>
