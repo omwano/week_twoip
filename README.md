@@ -1,5 +1,5 @@
 # week_twoip
-Akan name calculator
+
 Project Name
 Akan Name Calculator
 
