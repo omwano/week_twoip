@@ -40,4 +40,5 @@
 
   let daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   alert('Your day of birth is ${daysOfWeek[dayOfWeek]}');
+  if(gender == "male"){}
 }
