@@ -1,18 +1,35 @@
 body{
-  background-color: aqua;
+  background-color: gainsboro;
   font-family: Arial, Helvetica, sans-serif;}
   h1{
     text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
   }
   
-  button{
-    padding: 10px;
-    border-radius: 5px;
-    border:none;
-    color: black;
-    margin-top: 2em;
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  label{
+    margin-top: 1rem;
+  }
+
+  
+   button {
+    margin-top: 1em;
     margin-bottom: 2em;
-    font-size: 16px;
+    background-color: darkgrey;
+    color: black;
+    padding: 0.5rem 1rem;
+    border:none;
+    border-radius: 0.25rem;
     cursor: pointer;
-     }
- 
+  }
+
+  #output {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
