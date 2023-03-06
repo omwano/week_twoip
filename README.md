@@ -1,7 +1,7 @@
 # week_twoip
 
 Project Name
-Akan Name Calculator
+Akan Name generator
 
 Author
 Omwono Hellen, A
