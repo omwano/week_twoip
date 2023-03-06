@@ -6,20 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akan Name Calculator Week Two</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/custom.css" type="text/css">
   </head>
 <body>
   <h1>Akan Name Calculator</h1>
-  <p>This application allows a user to know the day of the week they were born based on their gender using the Akan Ghanian naming culture.</p>
-  <p>Enter your birthday below</p>
+  <p>This application allows someone to know the day of the week they were born, then based on their gender it reveals their corresponding Akan name - <em>Ghanian naming culture</em>.</p>
+  <p>Enter your birthday below:</p>
   <form>
-    <label for="mm">Month:</label>
+    <label for="month">Month:</label>
     <input type="number" id="mm" min="1" max="12" required>
-    <label for="dd">Date:</label>
+    <label for="date">Date:</label>
     <input type="number" id="dd" min="1" max="31" required>
-    <label for="yy">Year:</label>
-    <input type="number" id="yy" required>
-
-    <button type="submit">Submit</button>
+    <label for="year">Year:</label>
+    <input type="number" id="yy" min="1870" max="2023" required>
+    <label for="gender">Gender</label>
+    <select id="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+    <button type="submit" onclick="akanName()">Submit</button>
+    <script src="namecalc.js"></script>
   </form>
   
 </body>
