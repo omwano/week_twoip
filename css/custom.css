@@ -1,0 +1,18 @@
+body{
+  background-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;}
+  h1{
+    text-align: center;
+  }
+  
+  button{
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+    color: black;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 16px;
+    cursor: pointer;
+     }
+ 
