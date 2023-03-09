@@ -11,22 +11,26 @@
 <body>
   <div class="container">
     <div class="jumbotron">
+      <div class="card">
+        <div class="card-title">
   <h1>Akan Name generator</h1>
   <p>This web application allows someone to know the day of the week they were born. Then based on their gender it reveals their corresponding Akan name - <em>Ghanian naming culture</em> in which children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
-  <p>It works by taking your birthday and then calculates the day of the week you were born and then depending on your gender it outputs your Akan Name. </p>
-  <p>To see your Akan name, Enter your birthday below</p>
+  <p>To see your Akan name, Enter your birthday below:</p>
+  </div>
+    </div>
   <form onsubmit="return validateForm()">
         <label for="dob">Date of Birth</label>
         <input type="date" id="dob" name="dob" required><br><br>
         <label for="gender">Gender</label>
         <select id="gender" name="gender">
+          <option value="Select your gender">Select your gender</option>
           <option value="male">Male</option>
           <option value="female">Female</option>
         </select><br><br>
         <button type="button" onclick="generateName()">Generate Name</button>
  </form>
  <div class="card-footer">
-  <p id="output"></p>
+  
      <script src="/week_twoip/js/akangen.js"></script>
     </div>
   </div>

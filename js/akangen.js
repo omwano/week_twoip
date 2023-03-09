@@ -1,3 +1,13 @@
+function validateForm() {
+  const dob = document.getElementById("dob").value;
+  const gender = document.getElementById("gender").value;
+  if (dob === "" || gender === "") {
+    alert ("Please enter your date of Birth and gender.");
+    return false;
+  }
+  return true;
+  }
+
 function generateName() {
   let dob = new Date(document.getElementById("dob").value);
   let gender = document.getElementById("gender").value;
@@ -18,5 +28,5 @@ let femaleNames = ["Akosua", "Adwao", "Abenaa", "Akua", "Yaa" , "Afua", "Ama"];
   } else {
     name = femaleNames[dayOfWeek];
   }
-  document.getElementById("output").innerHTML = "Your Akan name is: " + name;
+  window.alert("Your Akan name is: " + name);
 }
