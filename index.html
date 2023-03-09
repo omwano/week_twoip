@@ -15,9 +15,9 @@
   <p>This web application allows someone to know the day of the week they were born. Then based on their gender it reveals their corresponding Akan name - <em>Ghanian naming culture</em> in which children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
   <p>It works by taking your birthday and then calculates the day of the week you were born and then depending on your gender it outputs your Akan Name. </p>
   <p>To see your Akan name, Enter your birthday below</p>
-  <form>
+  <form onsubmit="return validateForm()">
         <label for="dob">Date of Birth</label>
-        <input type="date" id="dob" name="dob" max = "01/02/2023" required><br><br>
+        <input type="date" id="dob" name="dob" required><br><br>
         <label for="gender">Gender</label>
         <select id="gender" name="gender">
           <option value="male">Male</option>
