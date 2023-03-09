@@ -14,22 +14,19 @@
   <p>Enter your birthday below:</p>
   <div class="card">
     <div class="card-body">
-  <form>
-    <label for="month">Month:</label>
-    <input type="number" id="mm" min="1" max="12" required>
-    <label for="date">Date:</label>
-    <input type="number" id="dd" min="1" max="31" required>
-    <label for="year">Year:</label>
-    <input type="number" id="yy" min="1870" max="2023" required><br><br>
-    <label for="gender">Gender</label>
+  <form id="form">
+   <label for="day">Date of Birth:</label><br>
+    <input type="number" id="day" name ="day" placeholder = "Day"min="1" max="31" required><br>
+    <input type="number" id="month" name ="month" placeholder = "Month"min="1" max="12" required><br>
+    <input type="number" id="year" name ="year" placeholder = "Year"min="1900" max="2023" required><br>
     <select id="gender" name="gender" required>
       <option value="">Select Gender</option>
       <option value="male">Male</option>
       <option value="female">Female</option>
     </select><br><br>
-    <button type="submit" onclick="akanName()">Submit</button>
+    <button type="submit" >Generate Akan Name</button>
   </form>
-  </div id="output"></div>
-  <script src="namecalc.js"></script>
+  </div id="result"></div>
+  
 </body>
 </html>
