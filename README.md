@@ -18,7 +18,7 @@ To use the application, open the web application in your web browser and follow 
 - Enter your date of birth in the Date of Birth input field
 - Select your gender from the dropdown menu.
 - Click on "Generate Name" button.
-- Your Akan name will be displayed at the bottom right on your screen.
+- Your Akan name will be displayed on your screen.
 
 ## Technologies used
 - HTML

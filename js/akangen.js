@@ -29,4 +29,5 @@ let femaleNames = ["Akosua", "Adwao", "Abenaa", "Akua", "Yaa" , "Afua", "Ama"];
     name = femaleNames[dayOfWeek];
   }
   window.alert("Your Akan name is: " + name);
+  document.getElementById("output").innerHTML = "Your Akan name is: " + name;
 }
