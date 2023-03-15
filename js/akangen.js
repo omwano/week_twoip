@@ -20,7 +20,7 @@ function generateName() {
   let dayOfWeek = Math.floor(((cc / 4) -2 * cc - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + day) % 7;
    
   let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku","Yaw", "Kofi","Kwame"];
-let femaleNames = ["Akosua", "Adwao", "Abenaa", "Akua", "Yaa" , "Afua", "Ama"];
+  let femaleNames = ["Akosua", "Adwao", "Abenaa", "Akua", "Yaa" , "Afua", "Ama"];
 
   let name;
    if (gender === "male") {
